@@ -1,7 +1,7 @@
-function Button(props) {
+function Button({name}) {
     return (
         <button>
-            {props.name || 'default'} 
+            {name || 'default'} 
         </button>
     )
 }

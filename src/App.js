@@ -3,7 +3,7 @@ import './App.css';
 import Button from './Button';
 
 let buttons = ['btn1', 'btn2', 'btn3', 'btn4'];
-function App() {
+function App () {
   return (
     <div className="App">
       <header className="App-header">
